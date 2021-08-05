@@ -1,4 +1,8 @@
 import { Navbar, Container, Nav, NavDropdown} from "react-bootstrap"
+import { Cart } from "react-bootstrap-icons";
+import { CartWidget } from "./cartWidget"
+
+
 export const NavBar = () => {
     return(
         <>
@@ -16,6 +20,15 @@ export const NavBar = () => {
                                 <NavDropdown.Item href="#action/3.2">Gatos</NavDropdown.Item>
                             </NavDropdown>
                         </Nav>
+                            <Nav.Link href="#cart">
+                                    <NavDropdown
+                                    id="nav-dropdown-dark-example"
+                                    menuVariant="dark"
+                                    >
+                                        <CartWidget/>
+                                    </NavDropdown>
+                            </Nav.Link>
+                        <cartWidget/>
                     </Navbar.Collapse>
                 </Container>
             </Navbar>

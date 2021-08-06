@@ -1,5 +1,5 @@
-import { CardGroup, Card} from "react-bootstrap"
-import { propTypes } from "react-bootstrap/esm/Image"
+// import { CardGroup, Card} from "react-bootstrap"
+// import { propTypes } from "react-bootstrap/esm/Image"
 
 export const ItemListContainer = (props) => {
     return(

@@ -1,10 +1,6 @@
 // import { CardGroup, Card} from "react-bootstrap"
 // import { propTypes } from "react-bootstrap/esm/Image"
-
-export const ItemListContainer = (props) => {
-    return(
-        <>
-           {props.saludo}{/* <CardGroup>
+/* <CardGroup>
                 <Card>
                     <Card.Img variant="top" src="holder.js/100px160" />
                     <Card.Body>
@@ -45,7 +41,13 @@ export const ItemListContainer = (props) => {
                     <small className="text-muted">Last updated 3 mins ago</small>
                     </Card.Footer>
                 </Card>
-            </CardGroup> */}
+            </CardGroup> */
+import { ItemCount } from "./ItemCount"
+export const ItemListContainer = (props) => {
+    return(
+        <>
+           {props.saludo}
+           <ItemCount stock="5" initial="1"/>
         </>
     )
 }

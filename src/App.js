@@ -1,13 +1,11 @@
 import './App.css';
 import React from 'react';
-import { ItemListContainer } from './components/itemListContainer';
-import { NavBar } from './components/NavBar';
-function App() {
- 
+import { Router } from './router/Router';
+
+function App() { 
   return (
-    <div className="App"id="HOLA">
-      <NavBar/>
-      <ItemListContainer saludo="HOLA CODERS"/>
+    <div className="App">
+      <Router/>
     </div>
   );
 }

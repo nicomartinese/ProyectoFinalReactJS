@@ -42,12 +42,11 @@
                     </Card.Footer>
                 </Card>
             </CardGroup> */
-import { ItemCount } from "./ItemCount"
-export const ItemListContainer = (props) => {
+import { ItemList } from "./ItemList"
+export const ItemListContainer = () => {
     return(
         <>
-           {props.saludo}
-           <ItemCount stock="5" initial="1"/>
+           <ItemList/>
         </>
     )
 }

@@ -1,8 +1,9 @@
 import { CardGroup, Row, Col } from 'react-bootstrap';
 import { Item } from './Item';
 import { productos } from '../productos';
-export const ItemList = ()=>{
 
+export const ItemList = (props)=>{
+    
     return (
         <>
             <CardGroup>

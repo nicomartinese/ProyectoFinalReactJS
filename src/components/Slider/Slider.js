@@ -4,7 +4,7 @@ import './slider.css';
 export const Slider = () => {
     return(
         <Carousel variant="dark" className="carousel">
-            <Carousel.Item className="slider-container">
+            <Carousel.Item className="slide-container">
                 <img
                 className="d-block w-100"
                 src="./images/slider/Gatos.png"
@@ -16,7 +16,7 @@ export const Slider = () => {
                 <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                 </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item>
+            <Carousel.Item className="slide-container">
                 <img
                 className="d-block w-100"
                 src="./images/slider/Perros.png"
@@ -27,7 +27,7 @@ export const Slider = () => {
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item>
+            <Carousel.Item className="slide-container">
                 <img
                 className="d-block w-100"
                 src="./images/slider/Mascotas.png"

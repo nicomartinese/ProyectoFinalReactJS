@@ -8,7 +8,6 @@ export const NavBar = () => {
             <Navbar className="color-nav" expand="lg" sticky="top">
                 <Container>
                     <Navbar.Brand><Image src="./images/ECMlogo.png" roundedCircle style={{ width: 80, height: 'auto' }}/></Navbar.Brand>
-                    <Nav.Link href="#Cart"><CartWidget/></Nav.Link>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
@@ -19,6 +18,7 @@ export const NavBar = () => {
                                 <NavDropdown.Divider />
                                 <NavDropdown.Item href="#action/3.2">Gatos</NavDropdown.Item>
                             </NavDropdown>
+                    <Nav.Link href="#Cart"><CartWidget/></Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

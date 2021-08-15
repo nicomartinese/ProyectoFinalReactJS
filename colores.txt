@@ -1,1 +1,2 @@
 #EEFF66 Y #52B8AF
+<Image src="./images/ECMlogo.png" roundedCircle style={{ width: 80, height: 'auto' }}/>

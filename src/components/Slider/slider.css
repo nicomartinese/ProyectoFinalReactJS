@@ -1,9 +1,13 @@
 .carousel{
     margin: 2%;
+    box-shadow: 0px 11px 15px 0px rgba(0,0,0,0.28);
+    -webkit-box-shadow: 0px 11px 15px 0px rgba(0,0,0,0.28);
+    -moz-box-shadow: 0px 11px 15px 0px rgba(0,0,0,0.28);
+    border-radius: 15px;
 }
-.slider-container{
-    height: 40vmax;
+img{
+    border-radius: 15px;
 }
 .caption-container{
-    color: aqua;
+    height: 50%;
 }

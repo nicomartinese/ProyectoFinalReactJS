@@ -2,7 +2,7 @@ import { Card } from 'react-bootstrap';
 export const Item = (props)=>{
     return (
         <>
-            <Card key={props.id}>
+            <Card>
                     <Card.Img variant="top" src={props.thumbnail} />
                     <Card.Body>
                     <Card.Title>{props.title}</Card.Title>

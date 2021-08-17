@@ -1,0 +1,8 @@
+.item-detail-container{
+    margin: 2%;
+    box-shadow: 0px 11px 15px 0px rgba(0,0,0,0.28);
+    -webkit-box-shadow: 0px 11px 15px 0px rgba(0,0,0,0.28);
+    -moz-box-shadow: 0px 11px 15px 0px rgba(0,0,0,0.28);
+    border-radius: 15px;
+    border: 0.25rem, solid, black;
+}

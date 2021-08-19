@@ -1,18 +1,13 @@
 import { Header } from "../Header/Header";
-import { Slider } from "../Slider/Slider";
-import { ItemListContainer } from "../itemListContainer";
-import './home.css';
-import { ItemDetailContainer } from "../ItemDetailContainer/ItemDetailContainer";
+import { BodySlider } from '../Slider/1/1';
+import { Footer } from '../Footer/Footer';
 
 export const Home = () =>{
     return(
         <>
             <Header/>
-            <div className="content">
-                <Slider/>
-                <ItemListContainer/>
-                <ItemDetailContainer/>
-            </div>
+            <BodySlider/>
+            <Footer/>
         </>
     )
 }

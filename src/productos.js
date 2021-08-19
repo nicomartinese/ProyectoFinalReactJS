@@ -1,9 +1,9 @@
 export const productos = [
     { 
       "id": "1",
-      "title": "Veal - Kidney",
+      "title": "Bolso Transportador",
       "descpription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo repudiandae amet nulla illum minima accusamus eius necessitatibus reiciendis porro iste molestiae esse qui similique dolore, ipsam libero in velit dolor!",
-      "price": "$4.86",
+      "price": "$490",
       "thumbnail": "https://robohash.org/rationeinventoreimpedit.png?size=50x50&set=set1"
     },
     {

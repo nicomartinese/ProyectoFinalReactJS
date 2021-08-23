@@ -1,4 +1,11 @@
 .sale{
     background-color: #EEFF66;
     border-radius: 15px;
+    color: #52B8AF !important;
+}
+
+.nav-menu {
+    text-decoration: none;
+    color: #EEFF66;
+    text-transform: uppercase;
 }

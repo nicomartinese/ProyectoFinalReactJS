@@ -1,4 +1,4 @@
-import { ItemDetail } from "../ItemDetail/ItemDetail"
+import { ItemDetail } from "./ItemDetail/ItemDetail"
 import './itemdetailcontainer.css'
 import { productos } from '../../productos';
 import { useEffect, useState } from "react";

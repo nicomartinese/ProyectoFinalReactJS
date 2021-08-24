@@ -1,31 +1,21 @@
 import React, { useState} from 'react';
-export const ItemCount = (props) => {
-    const [counter, setCounter] = useState(parseInt(props.initial));
-    const resta =()=>{
-        setCounter(counter>1? counter - 1: console.log("unidades minimas"))
-    }
-    const suma =()=>{
-        setCounter(counter<parseInt(props.stock)? counter + 1: console.log("out of stock"))
-    }
+import { Button } from 'react-bootstrap';
+export const ItemCount = () => {
+    const [counter, setCounter] = useState(0);
     return(
         <>
             <div>
                 <span>PRODUCTO</span>
                 <div>
-                    <button onClick={resta}>
+                    <Button onClick={()=>setCounter(counter-1)}>
                         -
-                    </button>
+                    </Button>
                     <span>
                         {counter}
                     </span>
-                    <button onClick={suma}>
+                    <Button onClick={()=>setCounter(counter+1)}>
                         +
-                    </button>
-                </div>
-                <div>
-                    <button>
-                        Agregar al carrito
-                    </button>
+                    </Button>
                 </div>
             </div>
         </>

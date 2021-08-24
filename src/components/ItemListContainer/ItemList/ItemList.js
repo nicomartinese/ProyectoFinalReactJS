@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { CardGroup, Row, Col } from 'react-bootstrap';
-import { Item } from './Item';
-import { productos } from '../productos';
+import { Item } from './Item/Item';
+import { productos } from '../../../productos';
 
 export const ItemList = ()=>{
     const [items, setItems] = useState([]);

@@ -1,4 +1,5 @@
 import { Container, Row, Col, Breadcrumb, Button } from "react-bootstrap"
+import { ItemCount } from "../../ItemCount"
 import './itemdetail.css'
 
 export const ItemDetail = (props) => {
@@ -33,6 +34,9 @@ export const ItemDetail = (props) => {
                                 <h5>
                                     {props.title+" "+props.price}
                                 </h5>
+                            </Row>
+                            <Row>
+                                <ItemCount/>
                             </Row>
                             <Row>
                                 <Button>Agregar al carrito</Button>

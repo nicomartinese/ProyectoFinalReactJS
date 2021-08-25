@@ -2,6 +2,8 @@
     background-color: #EEFF66;
     border-radius: 15px;
     color: #52B8AF !important;
+    display: flex;
+    justify-content: center;
 }
 
 .nav-menu {

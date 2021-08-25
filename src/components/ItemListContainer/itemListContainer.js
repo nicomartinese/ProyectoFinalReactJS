@@ -7,7 +7,6 @@ import './itemlistcontainer.css';
 export const ItemListContainer = () => {
     return(
         <>
-            <Header/>
             <div className="item-container">
                 <Row>
                     <Col xs={3}>
@@ -29,7 +28,6 @@ export const ItemListContainer = () => {
                     </Col>
                 </Row>
             </div>
-            <Footer/>
         </>
     )
 }

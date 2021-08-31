@@ -1,6 +1,4 @@
 import { Row, Col } from "react-bootstrap";
-import { Footer } from "../Footer/Footer"
-import { Header } from "../Header/Header"
 import { ItemList } from "./ItemList/ItemList"
 import './itemlistcontainer.css';
 
